@@ -2,7 +2,7 @@
 .post {
     margin-bottom: 20px;
     background-color: $color-white;
-    border: 1px solid $color-charlie;
+    border: 1px solid $color-tertiary--darker;
     border-radius: 7px;
 
     &:last-child {
@@ -40,7 +40,7 @@
 
     &__comments-comment {
         a {
-            color: $color-delta;
+            color: $color-tertiary--darkest;
         }
     }
 
@@ -48,7 +48,7 @@
         display: flex;
         align-items: center;
         padding: 15px;
-        border-top: 1px solid $color-bravo;
+        border-top: 1px solid $color-tertiary--dark;
     }
 
     &--loader {

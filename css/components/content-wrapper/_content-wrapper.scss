@@ -1,5 +1,10 @@
 /* CONTENT WRAPPER */
 .content-wrapper {
+    @media screen and (min-width: 800px) {
+        display: flex;
+        margin: 0 -15px;
+    }
+
     &__aside {
         display: none;
 
@@ -24,10 +29,5 @@
             justify-content: space-between;
             margin-bottom: 30px;
         }
-    }
-
-    @media screen and (min-width: 800px) {
-        display: flex;
-        margin: 0 -15px;
     }
 }

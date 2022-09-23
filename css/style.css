@@ -375,6 +375,12 @@ input:focus {
 }
 
 /* CONTENT WRAPPER */
+@media screen and (min-width: 800px) {
+  .content-wrapper {
+    display: flex;
+    margin: 0 -15px;
+  }
+}
 .content-wrapper__aside {
   display: none;
 }
@@ -397,12 +403,6 @@ input:focus {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 30px;
-  }
-}
-@media screen and (min-width: 800px) {
-  .content-wrapper {
-    display: flex;
-    margin: 0 -15px;
   }
 }
 
