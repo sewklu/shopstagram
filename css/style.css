@@ -411,10 +411,10 @@ input:focus {
   display: flex;
   align-items: center;
   justify-self: center;
-  width: 56px;
-  height: 56px;
   border-radius: 100%;
   overflow: hidden;
+  width: 56px;
+  height: 56px;
 }
 .image-square--small {
   width: 32px;
