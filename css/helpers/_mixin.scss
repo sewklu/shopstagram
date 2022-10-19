@@ -1,0 +1,30 @@
+@mixin square($width, $height: $width) {
+    width: $width;
+    height: $height;
+}
+
+@mixin border($size, $type, $color) {
+    border: $size $type $color;
+}
+
+$mobile-screen: 480px;
+$tablet-screen: 768px;
+$desktop-screen: 1280px;
+ 
+@mixin mobile-screen() {
+  @media screen and (max-width: $mobile-screen) {
+    @content;
+  }
+}
+
+@mixin tablet-screen() {
+  @media screen and (max-width: $tablet-screen) {
+    @content;
+  }
+}
+
+@mixin desktop-screen() {
+  @media screen and (max-width: $desktop-screen) {
+    @content;
+  }
+}

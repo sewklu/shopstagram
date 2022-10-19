@@ -3,19 +3,16 @@
     display: flex;
     align-items: center;
     justify-self: center;
-    width: 56px;
-    height: 56px;
     border-radius: 100%;
     overflow: hidden;
-
+    @include square(56px);
+    
     &--small {
-        width: 32px;
-        height: 32px;
+        @include square(32px);
     }
 
     &--tiny {
-        width: 24px;
-        height: 24px;
+        @include square(24px);
     }
 
     &.has-border {
@@ -23,7 +20,7 @@
     }
 
     &.is-active {
-        border: 2px solid $color-primary;
+        @include border(2px, solid, $color-primary);
 
         img {
             border: 1px solid $color-white;
