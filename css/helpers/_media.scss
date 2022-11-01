@@ -1,12 +1,3 @@
-@mixin square($width, $height: $width) {
-    width: $width;
-    height: $height;
-}
-
-@mixin border($size, $type, $color) {
-    border: $size $type $color;
-}
-
 $mobile-screen: 480px;
 $tablet-screen: 768px;
 $desktop-screen: 1280px;
