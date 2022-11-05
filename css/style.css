@@ -308,6 +308,15 @@ template {
   display: none;
 }
 
+.page-header__logo {
+  display: inline-flex;
+}
+
+.page-header__logo::after {
+  content: url(../images/tree.png);
+  zoom: 15%;
+}
+
 * {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
@@ -319,7 +328,7 @@ html, body {
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #fafafa;
+  background-color: #F5F4D7;
   font-size: 14px;
 }
 
@@ -425,10 +434,10 @@ input:focus {
   height: 24px;
 }
 .image-square.has-border {
-  border: 1px solid #dbdbdb;
+  border: 1px solid #535233;
 }
 .image-square.is-active {
-  border: 2px solid #dd2a7c;
+  border: 2px solid #951F2B;
 }
 .image-square.is-active img {
   border: 1px solid #ffffff;
@@ -454,7 +463,7 @@ input:focus {
   margin-bottom: 30px;
   padding: 10px 0;
   background-color: #ffffff;
-  border-bottom: 1px solid #dbdbdb;
+  border-bottom: 2px solid #951F2B;
 }
 .page-header__wrapper {
   display: flex;
@@ -495,7 +504,7 @@ input:focus {
 .post {
   margin-bottom: 20px;
   background-color: #ffffff;
-  border: 1px solid #dbdbdb;
+  border: 1px solid #535233;
   border-radius: 7px;
 }
 .post:last-child {
@@ -545,7 +554,7 @@ input:focus {
   margin-bottom: 20px;
   padding: 15px 0;
   background-color: #ffffff;
-  border: 1px solid #dbdbdb;
+  border: 1px solid #535233;
   border-radius: 7px;
 }
 .stories-box__list {
