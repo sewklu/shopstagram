@@ -1,3 +1,11 @@
+.page-header__logo {
+  display: flex;
+}
+.page-header__logo::after {
+  content: url(../images/tree.png);
+  zoom: 15%;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -306,15 +314,6 @@ template {
  */
 [hidden] {
   display: none;
-}
-
-.page-header__logo {
-  display: inline-flex;
-}
-
-.page-header__logo::after {
-  content: url(../images/tree.png);
-  zoom: 15%;
 }
 
 * {
