@@ -1,3 +1,7 @@
 @mixin border($size, $type, $color) {
     border: $size $type $color;
 }
+
+@mixin border-bottom($size, $type, $color) {
+    border-bottom: $size $type $color;
+  }
